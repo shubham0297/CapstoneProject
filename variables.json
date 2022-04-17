@@ -1,0 +1,86 @@
+[
+    {
+        "ParameterKey": "vpcCIDR",
+        "ParameterValue": "10.0.0.0/16"
+    },
+    {
+        "ParameterKey": "subnetCIDR",
+        "ParameterValue": "10.0.0.0/24"
+    },
+    {
+        "ParameterKey": "environmentName",
+        "ParameterValue": "Capstone"
+    },
+    {
+        "ParameterKey": "azCount",
+        "ParameterValue": "3"
+    },
+    {
+        "ParameterKey": "clusterName",
+        "ParameterValue": "capstone_cluster"
+    },
+    {
+        "ParameterKey": "taskExecRole",
+        "ParameterValue": "capstone_task_exec_role"
+    },
+    {
+        "ParameterKey": "autoScalingcRole",
+        "ParameterValue": "capstone_ecs_autoscaling_role"
+    },
+    {
+        "ParameterKey": "taskDefinitionName",
+        "ParameterValue": "capstone_task_def"
+    },
+    {
+        "ParameterKey": "fargateCPU",
+        "ParameterValue": "512"
+    },
+    {
+        "ParameterKey": "fargateMemory",
+        "ParameterValue": "1024"
+    },
+    {
+        "ParameterKey": "imageLocation",
+        "ParameterValue": "876388828623.dkr.ecr.us-east-1.amazonaws.com/capstone:latest"
+    },
+    {
+        "ParameterKey": "appName",
+        "ParameterValue": "techtrends_app"
+    },
+    {
+        "ParameterKey": "containerPort",
+        "ParameterValue": "3111"
+    },
+    {
+        "ParameterKey": "hostPort",
+        "ParameterValue": "3111"
+    },
+    {
+        "ParameterKey": "appCount",
+        "ParameterValue": "3"
+    },
+    {
+        "ParameterKey": "ecsServiceName",
+        "ParameterValue": "capstone_ecs_service"
+    },
+    {
+        "ParameterKey": "loadBalancerName",
+        "ParameterValue": "capstone-load-Balancer"
+    },
+    {
+        "ParameterKey": "targetGroupName",
+        "ParameterValue": "capstone-target-group"
+    },
+    {
+        "ParameterKey": "maxContainers",
+        "ParameterValue": "5"
+    },
+    {
+        "ParameterKey": "minContainers",
+        "ParameterValue": "3"
+    },
+    {
+        "ParameterKey": "autoScalingPolicyName",
+        "ParameterValue": "capstone_Auto_scaling_policy"
+    }
+]
